@@ -19,7 +19,7 @@ export default function Details(){
           
 
          
-          <Image resizeMode='stretch' style={styles.imageBanner} source ={require(`../../Img/${route.params.imagem}`)} />
+          <Image resizeMode='stretch' style={styles.imageBanner} source ={{uri:`https://image.tmdb.org/t/p/original/${route.params.imagem}`}} />
           <TouchableOpacity style ={styles.backButton} onPress={navigation.goBack}> 
           <AntDesign  name="leftcircle" size={35} color="white" /> 
           </TouchableOpacity>
