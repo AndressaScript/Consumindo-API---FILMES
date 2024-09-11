@@ -1,6 +1,5 @@
 import React from 'react';
 import { View, Text, TouchableOpacity, Image } from 'react-native';
-import { Feather } from '@expo/vector-icons';
 import styles from './style';
 
 export default function Header() {

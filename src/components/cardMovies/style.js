@@ -6,7 +6,6 @@ const styles= StyleSheet.create({
     card: {
         backgroundColor: '#ffffff',
         borderRadius: 8,
-        // Sombra no React Native
         shadowColor: '#000',
         shadowOffset: { width: 0, height: 4 },
         shadowOpacity: 0.1,
@@ -14,7 +13,7 @@ const styles= StyleSheet.create({
         width: 300,
         overflow: 'hidden',
         flexDirection: 'column',
-        margin: 10, // Adicionado para espaçamento entre os cards
+        margin: 10, 
       },
       title: {
         textAlign: 'center',

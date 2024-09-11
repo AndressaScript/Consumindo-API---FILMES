@@ -21,7 +21,7 @@ const estilo = StyleSheet.create({
         width: 270, 
         height: 30, 
         marginTop: 20,
-        resizeMode: 'contain', // Ajusta a imagem para caber no container
+        resizeMode: 'contain', 
     }
 
 
