@@ -1,23 +1,21 @@
-import React from   'react'
-import {View,Text,TouchableOpacity} from 'react-native'
-import {Feather} from '@expo/vector-icons';
-import styles from './style'
+import React from 'react';
+import { View, Text, TouchableOpacity, Image } from 'react-native';
+import { Feather } from '@expo/vector-icons';
+import styles from './style';
 
+export default function Header() {
+    return (
+        <View style={styles.viewHeader}>
 
-export default function Header(){
+            <Image
+                source={{ uri: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/NewYorkTimes.svg/1280px-NewYorkTimes.svg.png' }}
+                style={styles.headerImage}
+            />
 
-    return(
-            <View style = {styles.viewHeader}>
-
-                <TouchableOpacity>  
-
-                <Feather style ={{marginLeft:-70}} name = 'menu' size= {36} color = "#FFF" />
-
-                </TouchableOpacity>
+            <TouchableOpacity>
                 
-                <Text style={styles.textHeader}>   TEC FILMES  </Text>
+            </TouchableOpacity>
             
-            </View>
+        </View>
     );
-
 }

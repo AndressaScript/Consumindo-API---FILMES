@@ -11,7 +11,7 @@ export default function Route(){
 
         <stack.Navigator>
             
-            <stack.Screen name='Home' component={Home}/>
+            <stack.Screen name='Home' component={Home} options={{ headerShown: false }}/>
             <stack.Screen name='Details' component={Details}/>
         </stack.Navigator>
        
