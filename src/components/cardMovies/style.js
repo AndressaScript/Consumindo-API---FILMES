@@ -3,31 +3,35 @@ import { StyleSheet } from "react-native";
 
 const styles= StyleSheet.create({
 
-    containerJogos:{
-        paddingTop:20,
-        paddingBottom:16,
-        paddingRight:16,
-        width:140,
-        heigh:28
-    },
-
-    titulo:{
-        color: '#fff',
-        fontSize:12,
-        paddingTop:8  
-    },
-
-    textNota:{
-        fontSize:10,
-        color:'#fff',
-        paddingLeft:4
-    },
-
-    images:{
-        width:'100%',
-        height:170,
-        borderRadius: 8     
-    }
+    card: {
+        backgroundColor: '#ffffff',
+        borderRadius: 8,
+        // Sombra no React Native
+        shadowColor: '#000',
+        shadowOffset: { width: 0, height: 4 },
+        shadowOpacity: 0.1,
+        shadowRadius: 8,
+        width: 300,
+        overflow: 'hidden',
+        flexDirection: 'column',
+        margin: 10, // Adicionado para espaçamento entre os cards
+      },
+      title: {
+        textAlign: 'center',
+        marginBottom: 20,
+        color: '#333',
+        fontSize: 18,
+        fontWeight: 'bold',
+      },
+      dados_livro: {
+        padding: 15,
+      },
+      textCommon: {
+        marginVertical: 5,
+        fontSize: 14,
+        color: '#555',
+        fontWeight: '500',
+      },
 
 
 })
